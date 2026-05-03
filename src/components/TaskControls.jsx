@@ -3,7 +3,7 @@ import { ArrowDownWideNarrow } from 'lucide-react';
 
 const TaskControls = ({showIncompleteOnly, setShowIncompleteOnly , sortedTasks}) => {
   return (
-    <div className='flex justify-between w-8/12 m-auto bg-sky-700 mb-2 mt-2 font-semibold'>
+    <div className='flex justify-between w-8/12 m-auto bg-gray-400 mb-2 mt-2 font-semibold rounded-2xl p-3 pr-4 pl-5 text-center'>
       <label>Task Controls</label>
       <span className='flex justify-between gap-2 items-center'>
       <input 

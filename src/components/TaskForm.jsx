@@ -21,7 +21,7 @@ import { CirclePlus } from 'lucide-react';
         }
     }
   return (
-    <div className='flex justify-center items-center w-8/12 m-auto bg-sky-700 mb-2 font-semibold p-4'>
+    <div className='flex justify-center items-center w-8/12 h-1/12 m-auto bg-gray-400 font-semibold rounded-2xl'>
         <span></span>
         <input type="text" placeholder='Add a task' className='w-9/12 p-2 rounded-lg m-4 border-2 border-t-[(201, 24, 77)] border-solid'  value={task} onChange={(e) => setTask(e.target.value)} />
         <input type="number" min="1" max="100" placeholder='Priority' className='text-center p-2 rounded-lg m-4 border-2 border-t-[(201, 24, 77)] border-solid' value={priority} onChange={(e) => setPriority(e.target.value)} />

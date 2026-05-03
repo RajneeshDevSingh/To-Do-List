@@ -45,7 +45,7 @@ const App = () => {
   }
 
   return (
-    <div className="bg-gray-500 h-screen w-screen">
+    <div className="bg-gray-300 min-h-screen w-full pt-8">
       <TaskForm addTask={addTask} />
       <TaskControls  showIncompleteOnly={showIncompleteOnly} setShowIncompleteOnly={setShowIncompleteOnly} sortedTasks={sortedTasks} />
       <TaskList  tasks={tasks} showIncompleteOnly={showIncompleteOnly}  toggleTaskDone={toggleTaskDone} deleteTask={deleteTask} updateTask={updateTask}/>
